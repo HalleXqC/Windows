@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    background-color: #2f6e3a;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #1e1f26;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_left{
+    display: inline-flex;
+    padding-left: 10px;
+}
+.nav_left ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.nav_left ul{
+    padding: 0;
+    list-style-type: none;
+    margin-right: 5px;
+}
+.nav_left ol{
+    padding: 0;
+    list-style-type: none;  
+    margin: auto 3px;  
+}
+.ol_li1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}   
+.nav_left ol li{
+    color: grey;
+    font-size: 14px;
+}
+.nav_left ol li span a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #5a5f73;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* nav_right */
+
+.nav_right ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.nav_heart{
+    
+    padding: 10px;
+    border: 3px solid #444857;
+    border-radius: 5px;
+}
+.nav_heart a{
+    color: gainsboro;
+}
+.nav_view{
+    padding: 10px;
+    background-color: #5a6074;
+    border: 3px solid #444857;
+    border-radius: 5px;
+}
+.nav_view a{
+    color: #adafbc;
+    text-decoration: none;
+}
+.nav_view a i{
+    color: gainsboro;
+}
+.sign_up{
+    background-color: #5fd074;
+    padding: 13px; 
+    border-radius: 5px;
+}
+.sign_up a{
+    color: #000;
+    text-decoration: none;
+}
+.log_in{
+    background-color: #444857;
+    padding: 13px;
+    border-radius: 5px;
+}
+.log_in a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav_right_li{
+    margin: 0 5px;
+}
+.nav_right_li a{
+    margin: auto 0;
+}
+
+/* main */
+
+main{
+    padding: 3%;
+    padding-right: 10%;
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+}
+.main_left{
+    width: 65%;
+}
+.main_left_flex{
+    display: flex;
+    flex-direction: column;
+}
+.main_left_cont{
+    display: flex;
+}
+.main_left_box{
+    flex: 1;
+    height: 150px;
+    margin: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.main_left_box:hover{
+    transform: scale(1.1);
+}
+.main_left_box1, .main_left_box2, .main_left_box7, .main_left_box10{
+    flex: 2;
+}
+.main_left_box i{
+    font-size: 50px;
+    color: #fff;
+}
+.main_left_box p{
+    position: absolute;
+    left: 3%;
+    bottom: 5%;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.main_left_box1{
+    background-color: #228ef8;
+}
+.main_left_box2{
+    background-color: #e76136;
+}
+.main_left_box3{
+    background-color: #db3f32;
+}
+.main_left_box4{
+    background-color: #61b820;
+}
+.main_left_box5{
+    background-color: #30b9e3;
+}
+.main_left_box6{
+    background-color: #dab838;
+}
+.main_left_box7{
+    background-color: #d3424f;
+}
+.main_left_box8{
+    background-color: #db3f32;
+}
+.main_left_box9{
+    background-color: #e76136;
+}
+.main_left_box10{
+    background-color: #228ef8;
+}
+.main_left_box11{
+    background-color: #61b820;
+}
+
+/* main_right */
+
+.main_right{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.main_right_flex{
+    display: flex;
+}
+.main_right_box{
+    flex: 1;
+    height: 150px;
+    margin: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.main_right_box i{
+    font-size: 50px;
+    color: #fff;
+}
+.main_right_box p{
+    position: absolute;
+    left: 3%;
+    bottom: 5%;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.main_right_box:hover{
+    transform: scale(1.1);
+}
+.main_right_box1{
+    background-color: #228ef8;
+}
+.main_right_box2{
+    background-color: #30b9e3;
+}
+.main_right_box3{
+    background-color: #db3f32;
+}
+.main_right_box4{
+    background-color: #d3424f;
+}
+.main_right_box5{
+    background-color: #dab838;
+}
+
